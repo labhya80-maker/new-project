@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(13, 14, 11, 0.568);
+}
+.text{
+    margin-bottom:10px;
+    font-size:50px;
+    font-weight: 50;
+}
+/* body{
+    width:100%;
+    height:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(13, 14, 11, 0.568);
+
+} */
+
+.calc{
+    width:71.50%;
+    border:1px solid;
+    padding:20px;
+    border-radius:16px;
+    box-shadow: 0px 3px 15px rgba(242, 243, 245, 0.5);
+    background:transparent;
+
+
+    
+
+}
+input{
+    width:100%;
+    border:none;
+    padding:50px;
+    margin-bottom:20px;
+    background-color:white;
+    box-shadow:0px 3px 15px rgba(247, 232, 232, 0.1);
+    font-size:40px;
+    text-align:right;
+    cursor:pointer;
+    color: black;
+    border-radius:20px;
+
+
+}
+input::placeholder{
+    color:rgb(12, 13, 14);
+
+}
+
+
+button{
+    border:none;
+    width:70px; 
+    height:60px;
+    margin:10px;
+    border-radius:50%;
+    background-color: rgb(255, 255, 255);
+    color:rgb(27, 26, 26);
+    font-size:20px;
+cursor:pointer;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.equalBtn{
+    background-color: orange;
+}
+.operator{
+    color:black;
+}
+
+
