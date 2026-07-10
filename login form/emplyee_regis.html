@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+/* Page Styling */
+body {
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+     background-color: rgb(204, 212, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+.container {
+    background-color: white;
+    width: 550%;
+    max-width:1000px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(116, 114, 114, 0.2);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #11110e;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #161212;
+    margin-bottom: 30px;
+
+}
+
+re
+   { background-color: black;
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Two Columns */
+.form-container {
+    text-align:left;
+    display: block;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* Labels */
+
+.label {
+    display:block;
+    text-align:left;
+    font-weight: 600;
+    color: #333;
+    margin-left:130px;
+}
+
+/* Input Fields */
+input,
+select {
+    
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+    box-sizing: border-box;
+    
+}
+
+
+.submit_button_demo {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 19.92px;;
+}
+
+.submit_button_demo:hover {
+    background-color: #c5cc5d;
+    color: #08080a;
+}
+
+
+/* Input Focus Effect */
+input:focus,
+select:focus {
+    border-color: #d4d65e;
+    box-shadow: 0 0 20px rgba(175, 177, 68, 0.3);
+    margin-left: 10px;
+}
+
+/* Register Button */
+   .register-btn {
+    
+    background-color: black;
+    color: rgb(204, 212, 92);
+    padding: 8px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    
+
+}
+
+
+button:hover {
+    background-color: #333;
+    
+}
+
+/* Login Text */
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #131218;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+ </style>
+
+
+<body>
+<div class="container">
+    
+    <h1>Employee Registration Portal</h1>
+
+    <hr>
+
+    <h2>New Employee Registration</h2>
+
+    <form>
+
+        <label class="label" >Employee Name: </label><br>
+        <input type="text" required><br><br>
+
+        <label class="label">Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label class="label">Phone Number:</label><br>
+        <input type="number" required><br><br>
+
+        <label class="label" >Department:</label><br>
+        <select required>
+            <option value="">Select Department</option>
+            <option>HR</option>
+            <option>IT</option>
+            <option>Finance</option>
+            <option>Marketing</option>
+        </select><br><br>
+
+        <label class="label">Create Password:</label><br>
+        <input type="password" required><br><br>
+
+        <label class="label">Confirm Password:</label><br>
+        <input type="password" required><br><br>
+
+        <input type="submit" value="Register" class="submit_button_demo">
+
+    </form>
+
+    <hr>
+
+    
+        <span>Already Registered?</span>
+        <a href="login.html">Login</a>
+    </div>
+</body>
+    </head>
+
+
+   
